@@ -8,7 +8,6 @@
     <title>Oferta Académica - Desarrollo de Software</title>
 
     <style>
-
         * {
             box-sizing: border-box;
         }
@@ -18,6 +17,31 @@
             font-family: Arial, sans-serif;
             background-color: #f4f6f9;
             color: #333;
+        }
+
+        /* Botón en la esquina superior izquierda */
+        .btn-regresar {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background-color: #ffffff;
+            color: #1e3a5f;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            border: 2px solid #1e3a5f;
+        }
+
+        /* Efecto al pasar el mouse por encima del botón */
+        .btn-regresar:hover {
+            background-color: #1e3a5f;
+            color: #ffffff;
+            transform: scale(1.05);
         }
 
         /* Encabezado */
@@ -78,50 +102,41 @@
             padding: 20px;
             margin-top: 40px;
         }
-
     </style>
-
 </head>
 
 <body>
+
+    <!-- El botón ahora está aquí adentro y usa una clase de CSS -->
+    <a href="https://www.canva.com/design/DAHTtE9emJ4/ZEYEkujrG7IJ-_KWEGyjgg/edit" class="btn-regresar">
+        ⬅ Regresar al menú
+    </a>
 
     <header>
         <h1>Bachillerato Técnico Vocacional en Desarrollo de Software</h1>
         <p>Prepárate para el futuro de la tecnología</p>
     </header>
 
-
     <main class="contenedor">
-
         <section class="seccion">
-
             <h2>📋 Requisitos de ingreso</h2>
-
             <ul>
                 <li>Haber aprobado 9.º grado.</li>
                 <li>Fotocopia de DUI de padre, madre o encargado.</li>
                 <li>Completar la ficha de inscripción.</li>
             </ul>
-
         </section>
 
-
         <section class="seccion">
-
             <h2>💻 ¿Qué es?</h2>
-
             <p>
                 Es una formación técnica orientada al aprendizaje de programación,
                 desarrollo de aplicaciones y creación de soluciones tecnológicas.
             </p>
-
         </section>
 
-
         <section class="seccion">
-
             <h2>📚 ¿Qué aprenderás?</h2>
-
             <ul>
                 <li>💻 Programación y desarrollo de software.</li>
                 <li>🌐 Creación de páginas y aplicaciones web.</li>
@@ -131,14 +146,10 @@
                 <li>🔧 Uso de herramientas tecnológicas.</li>
                 <li>👥 Trabajo en equipo y desarrollo de proyectos.</li>
             </ul>
-
         </section>
 
-
         <section class="seccion">
-
             <h2>🎯 ¿Qué habilidades desarrollarás?</h2>
-
             <ul>
                 <li>Pensamiento lógico y computacional.</li>
                 <li>Resolución de problemas.</li>
@@ -147,19 +158,12 @@
                 <li>Trabajo colaborativo.</li>
                 <li>Creatividad e innovación.</li>
             </ul>
-
         </section>
-
     </main>
-
 
     <footer>
         <p>Oferta Académica | Bachillerato Técnico Vocacional en Desarrollo de Software</p>
     </footer>
 
 </body>
-<a href="https://www.canva.com/design/DAHTtE9emJ4/ZEYEkujrG7IJ-_KWEGyjgg/edit">
-    <button>Ir a otra página</button>
-</a>
-
 </html>
